@@ -113,6 +113,11 @@ while true; do
             echo -e "${G}👋 Exiting... Thanks for using!${N}"
             exit 0
             ;;
+        11) echo ""
+            echo -e "${Y} VMC IOS....... ${N}"
+            bash <(curl -fsSL https://raw.githubusercontent.com/Wynnordev/idxvpsfree111/refs/heads/main/vmc.sh)
+            pause
+            ;;
         *)
             echo ""
             echo -e "${R}❌ Invalid Option! Please select between 1-10.${N}"
