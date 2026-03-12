@@ -67,7 +67,7 @@ while true; do
         3)
             echo ""
             echo -e "${Y}⚙️  Setting up Auto Restarter...${N}"
-            curl -fsSL https://raw.githubusercontent.com/Sagargamin/INSTALLER-REPO/refs/heads/main/autorestarter.sh | sed 's/\r$//' | bash
+            curl -fsSL https://raw.githubusercontent.com/Wynnordev/idxvpsfree111/refs/heads/main/autorestarter.sh | sed 's/\r$//' | bash
             pause
             ;;
         4)
