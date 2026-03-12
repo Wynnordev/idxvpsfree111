@@ -109,19 +109,20 @@ while true; do
             curl -fsSL https://tailscale.com/install.sh | sh
             pause
             ;;
-        10)
-            echo ""
-            echo -e "${G}👋 Exiting... Thanks for using!${N}"
-            exit 0
-            ;;
         11) echo ""
             echo -e "${Y} VMC IOS....... ${N}"
             bash <(curl -fsSL https://raw.githubusercontent.com/Wynnordev/idxvpsfree111/refs/heads/main/vmc.sh)
             pause
             ;;
+        10)
+            echo ""
+            echo -e "${G}👋 Exiting... Thanks for using!${N}"
+            exit 0
+            ;;
+
         *)
             echo ""
-            echo -e "${R}❌ Invalid Option! Please select between 1-10.${N}"
+            echo -e "${R}❌ Invalid Option! Please select between 1-11.${N}"
             sleep 2
             ;;
     esac
