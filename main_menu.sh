@@ -47,9 +47,10 @@ while true; do
     echo -e "${C} 8) ${W}RDP Installer ${G}(Desktop Environment)${N}"
     echo -e "${C} 9) ${W}Tailscale Installer ${G}(VPN)${N}"
     echo -e "${R} 10) Exit${N}"
+    echo -e "${C} 11) ${W}VMC ${G}(IOS)${N}"
     echo ""
     echo -e "${B}=====================================================${N}"
-    read -p "${Y}👉 Select an option [1-10]: ${N}" choice
+    read -p "${Y}👉 Select an option [1-11]: ${N}" choice
 
     case $choice in
         1)
