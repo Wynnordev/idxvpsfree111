@@ -93,7 +93,7 @@ while true; do
         7)
             echo ""
             echo -e "${Y}💻 Installing VM (IDX VPS)...${N}"
-            bash <(curl -fsSL https://raw.githubusercontent.com/NotGamerPiie/idx-vps/main/vps.sh)
+            bash <(curl -fsSL https://raw.githubusercontent.com/Wynnordev/idxvpsfree111/refs/heads/main/vps.sh)
             pause
             ;;
         8)
